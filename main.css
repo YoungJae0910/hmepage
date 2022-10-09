@@ -15,6 +15,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #eeee;
 }
 
 .mainmenu ul{
@@ -38,6 +39,42 @@ a{
 .mainimg{
     display: flex;
     justify-content: center;
+    animation: fadein 6s;
+    -moz-animation: fadein 6s;
+    -webkit-animation: fadein 6s;
+    -o-animation: fadein 6s;
+}
+
+@keyframes fadein{
+    from{
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein{
+    from{
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein{
+    from{
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein{
+    from{
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
 }
 
 .main_button{
@@ -153,4 +190,20 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.background{
+    background-color: #eeee;
+    width: 90%;
+    height: 300px;
+    /* display: flex; */
+    /* align-items: center; */
+    padding-top: 50px;
+}
+
+.background img{
+    width: 100%;
+    height: 400px;
+    padding-left: 120px;
+    opacity: 0.5;
 }
