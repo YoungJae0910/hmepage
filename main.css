@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 a{
     text-decoration: none;
     color: #616161;
@@ -134,18 +139,18 @@ a{
 .newarribals_img a{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 300px;
-    padding: 20px 40px;
+    justify-content: space-around;
+    width: 250px;
+    padding: 20px 20px;
 }
 
 .newarribals_img a img{
-    width: 100%;
+    width: 90%;
     height: 100%;
 }
 
 .arribals_text{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
